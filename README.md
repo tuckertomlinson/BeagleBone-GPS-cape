@@ -24,14 +24,14 @@ Stretch goals:
 	clock for better frequency stability
 
 Current status:
--Proof of concept based on Adafruit Ultimate GPS breakout constructed and working
--2 hardware capes designed
-	-low cost cape based on Sierra Wireless XM1100 module
-		-includeds RTC, and active antenna circuit
-	-High cost cape based on uBlox LEA-M8T module
-		-includes RTC, and 24Mhz VCTCXO clock. 
-		-GPS module provides active antenna power
--Capes use Uart 4 to recieve GPS packets, and timer4 to take in PPS
--RTC is on i2c 1
+- Proof of concept based on Adafruit Ultimate GPS breakout constructed and working
+- 2 hardware capes designed
+	- low cost cape based on Sierra Wireless XM1100 module
+		- includeds RTC, and active antenna circuit
+	- High cost cape based on uBlox LEA-M8T module
+		- includes RTC, and 24Mhz VCTCXO clock. 
+		- GPS module provides active antenna power
+- Capes use Uart 4 to recieve GPS packets, and timer4 to take in PPS
+- RTC is on i2c 1
 
 Both capes completely untested.
