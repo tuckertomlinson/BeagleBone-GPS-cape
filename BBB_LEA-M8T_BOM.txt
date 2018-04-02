@@ -1,0 +1,21 @@
+BeagleBone LEA-M8T GPS timing cape BOM:
+notes: 
+1)almost no effort was given here to cost optimization. Caps and resistors may likely be substituted for alternative components at lower cost. 
+2)cost reflects prices on Digikey as of the time that this BOM was compiled. Prices reflect single part quantity. discounts for bulk purchases are not taken into account
+
+part: 			board ID			manuf		manuf. #		digikey#		cost Apr 2018 	link
+GPS module		U$1				uBlox		LEA-M8T			672-1067-1-ND 		$89		https://www.digikey.com/product-detail/en/u-blox-america-inc/LEA-M8T/672-1067-1-ND/7931818
+.01uF cap 0805		C1,C4,C6,C9,C10,C13,C16,C18	TDK		CGA4J2X8R1H104K125AA 	445-5909-1-ND 		$0.22		https://www.digikey.com/product-detail/en/tdk-corporation/CGA4J2X8R1H104K125AA/445-5909-1-ND/2443949
+10uF cap 0805		C2,C3,C5,C7,C11,C12,C14,C15,C17	TDK		C2012X7R1A106K125AE 	445-173616-1-ND		$0.46		https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1A106K125AE/445-173616-1-ND/5809687
+10nF cap 0805		C8				TDK		C2012X7R2E103K125AA 	445-2280-1-ND 		$0.21		https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R2E103K125AA/445-2280-1-ND/789789	
+10kohm Resistor 0805	R2,R3,R4,R5			Panasonic	ERA-6AEB103V		P10KDACT-ND 		$0.36		https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB103V/P10KDACT-ND/1465971
+10 ohm Resistor 0805	R1				Vishay		TNPW080510R0FEEA	541-3916-1-ND 		$0.42		https://www.digikey.com/product-detail/en/vishay-dale/TNPW080510R0FEEA/541-3916-1-ND/7355274
+Ferrite bead	0603	FB1,FB2,FB3,FB4,FB5		Laird		HI0805O121R-10		240-2393-1-ND		$0.11		https://www.digikey.com/product-detail/en/laird-signal-integrity-products/HI0805O121R-10/240-2393-1-ND/806753
+3.3V regulator		U2				Microchip 	MIC5225-3.3		576-2980-1-ND 		$0.41		https://www.digikey.com/product-detail/en/microchip-technology/MIC5225-3.3YM5-TR/576-2980-1-ND/1815455
+RTC			DS3231				Maxim		Ds3231MZ+		DS3231MZ+-ND		$7.72		https://www.digikey.com/product-detail/en/maxim-integrated/DS3231MZ/DS3231MZ-ND/2754396
+24Mhz VCTCXO		U$3				Taitien		TWEAALSANF-24.000000	1664-1226-ND		$9.81		https://www.digikey.com/product-detail/en/taitien/TWEAALSANF-24.000000/1664-1226-ND/6127033
+U.FL Antenna jack	U$20				TE Connectivity	1909763-1 		 A118077CT-ND		$0.49		https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1909763-1/A118077CT-ND/4729711	
+2X pinhdr 2x23		U$15				Samtec		SSQ-123-03-G-D		SAM1196-23-ND		$9.11		https://www.digikey.com/product-detail/en/samtec-inc/SSQ-123-03-G-D/SAM1196-23-ND/1111439  alt: https://www.adafruit.com/product/706
+Diode			D1				Diodes Inc	1N4148WS-7-F		1N4148WS-FDICT-ND	$0.19		https://www.digikey.com/product-detail/en/diodes-incorporated/1N4148WS-7-F/1N4148WS-FDICT-ND/815281
+Diode			D2				Toshiba		CUS520,H3F		CUS520H3FCT-ND		$0.22		https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/CUS520H3F/CUS520H3FCT-ND/5114381
+CR1220 batt. holder	B1				Keystone	3001 			3001K-ND		$0.58		https://www.digikey.com/products/en?keywords=3001k-nd
