@@ -6398,7 +6398,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$7" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$17" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="C6" library="rcl" deviceset="C-US" device="C0805" value=".01u"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="22u"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="10u"/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="FB2" library="microbuilder" deviceset="FERRITE" device="-0805NO" value="Ferrite"/>
 <part name="FB3" library="microbuilder" deviceset="FERRITE" device="-0805NO" value="Ferrite"/>
@@ -6415,8 +6415,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="C12" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
 <part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
-<part name="C14" library="rcl" deviceset="C-US" device="C0805" value="22u"/>
-<part name="FB5" library="microbuilder" deviceset="FERRITE" device="-0805NO" value="Ferrite"/>
+<part name="C14" library="rcl" deviceset="C-US" device="C0805" value="10u"/>
+<part name="FB4" library="microbuilder" deviceset="FERRITE" device="-0805NO" value="Ferrite"/>
 <part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
 <part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
@@ -6475,7 +6475,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C12" gate="G$1" x="248.92" y="152.4"/>
 <instance part="C13" gate="G$1" x="241.3" y="152.4" rot="MR0"/>
 <instance part="C14" gate="G$1" x="154.94" y="162.56" rot="MR270"/>
-<instance part="FB5" gate="G$1" x="172.72" y="180.34" rot="MR0"/>
+<instance part="FB4" gate="G$1" x="172.72" y="180.34" rot="MR0"/>
 <instance part="C15" gate="G$1" x="38.1" y="25.4"/>
 <instance part="C16" gate="G$1" x="45.72" y="25.4"/>
 <instance part="C17" gate="G$1" x="73.66" y="25.4"/>
@@ -6682,7 +6682,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="180.34" x2="193.04" y2="180.34" width="0.1524" layer="91"/>
 <junction x="185.42" y="180.34"/>
-<pinref part="FB5" gate="G$1" pin="P$1"/>
+<pinref part="FB4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="ENABLE" class="0">
@@ -7007,7 +7007,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="160.02" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="162.56" x2="170.18" y2="170.18" width="0.1524" layer="91"/>
 <junction x="170.18" y="170.18"/>
-<pinref part="FB5" gate="G$1" pin="P$2"/>
+<pinref part="FB4" gate="G$1" pin="P$2"/>
 <junction x="170.18" y="180.34"/>
 </segment>
 </net>

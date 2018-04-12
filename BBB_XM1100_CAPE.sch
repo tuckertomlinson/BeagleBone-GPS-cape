@@ -6703,8 +6703,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$9" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$10" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-US" device="C0805" value="1uF"/>
-<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-0402-3.9NH" value="33NH"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C0805" value="47pF"/>
+<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-0402-3.9NH" value="39NH"/>
 <part name="U$12" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$17" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$3" library="tuckerLib" deviceset="XM1100" device=""/>

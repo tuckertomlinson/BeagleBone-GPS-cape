@@ -2305,10 +2305,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="DS3231" library="tuckerLib" package="SO08" value="DS3231M-8PIN" x="40.386" y="24.13" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.021" y="20.955" size="1.27" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="C4" library="rcl" package="C0805" value="1uF" x="16.51" y="11.43" smashed="yes" rot="R180">
+<element name="C4" library="rcl" package="C0805" value="47pF" x="16.51" y="11.43" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.764" y="12.954" size="0.508" layer="25" rot="R180"/>
 </element>
-<element name="L1" library="SparkFun-Coils" package="0402" value="33NH" x="20.066" y="11.176" smashed="yes" rot="R180">
+<element name="L1" library="SparkFun-Coils" package="0402" value="39NH" x="20.066" y="11.176" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.447" y="12.446" size="0.508" layer="25" rot="R180"/>
 <attribute name="PROD_ID" value="NDUC-13457" x="20.066" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="3.9NH" x="20.066" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
