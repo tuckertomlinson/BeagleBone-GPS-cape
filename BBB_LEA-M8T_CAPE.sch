@@ -6359,6 +6359,366 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Memory">
+<description>&lt;h3&gt;SparkFun Memory ICs&lt;/h3&gt;
+This library contains memory ICs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SO08">
+<description>SOIC, 0.15 inch width</description>
+<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
+<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
+<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
+<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
+<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
+<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
+<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
+<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
+<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
+<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
+<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
+<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
+<polygon width="0.002540625" layer="21">
+<vertex x="-2.69875" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.06375" curve="90"/>
+<vertex x="-3.33375" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.69875" curve="90"/>
+</polygon>
+</package>
+<package name="SO08-EIAJ">
+<description>Fits EIAJ packages (wide version of the SOIC-8).</description>
+<wire x1="-2.362" y1="-2.565" x2="2.362" y2="-2.565" width="0.1524" layer="51"/>
+<wire x1="2.362" y1="-2.565" x2="2.362" y2="2.5396" width="0.2032" layer="21"/>
+<wire x1="2.362" y1="2.5396" x2="-2.362" y2="2.5396" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="2.5396" x2="-2.362" y2="-2.565" width="0.2032" layer="21"/>
+<smd name="1" x="-1.905" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="2" x="-0.635" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="3" x="0.635" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="4" x="1.905" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="5" x="1.905" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="6" x="0.635" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="7" x="-0.635" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="8" x="-1.905" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
+<rectangle x1="-2.0828" y1="-3.6322" x2="-1.7272" y2="-2.6162" layer="51"/>
+<rectangle x1="-0.8128" y1="-3.6322" x2="-0.4572" y2="-2.6162" layer="51"/>
+<rectangle x1="0.4572" y1="-3.6322" x2="0.8128" y2="-2.6162" layer="51"/>
+<rectangle x1="1.7272" y1="-3.6322" x2="2.0828" y2="-2.6162" layer="51"/>
+<rectangle x1="-2.0828" y1="2.5908" x2="-1.7272" y2="3.6068" layer="51"/>
+<rectangle x1="-0.8128" y1="2.5908" x2="-0.4572" y2="3.6068" layer="51"/>
+<rectangle x1="0.4572" y1="2.5908" x2="0.8128" y2="3.6068" layer="51"/>
+<rectangle x1="1.7272" y1="2.5908" x2="2.0828" y2="3.6068" layer="51"/>
+<text x="-2.8575" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.4925" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.002540625" layer="21">
+<vertex x="-2.69875" y="-3.01625" curve="90"/>
+<vertex x="-3.01625" y="-2.69875" curve="90"/>
+<vertex x="-3.33375" y="-3.01625" curve="90"/>
+<vertex x="-3.01625" y="-3.33375" curve="90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="EEPROM-I2C">
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VSS" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="WP" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="SCL" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="SDA" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="A2" x="-12.7" y="0" length="middle"/>
+<pin name="A0" x="-12.7" y="5.08" length="middle"/>
+<pin name="A1" x="-12.7" y="2.54" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EEPROM-I2C" prefix="U">
+<description>&lt;h3&gt;I2C EEPROMs, 24LC256 and others&lt;/h3&gt;
+&lt;p&gt;24LC256 Series 256 kb I2C 2 Wire (32 k x 8 Bit) 2.5 V Serial EEPROM SMD - SOIC-8
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=""&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11703"&gt;SparkFun UDB5 - PIC UAV Development Board&lt;/a&gt; (GPS-11703)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="EEPROM-I2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SO08">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="WP" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-09714" constant="no"/>
+<attribute name="VALUE" value="24LC256" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="EIAJ" package="SO08-EIAJ">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="WP" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NA-XXXXX" constant="no"/>
+<attribute name="VALUE" value="I2C EEPROM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="DIPSWITCH-02-CHS-02A">
+<description>&lt;h3&gt;2-Position DIP Switch - SMD, J-Hook Pads, 0.05"-Pitch&lt;/h3&gt;
+&lt;p&gt;2-circuit DIP (dual inline package) switch. Commonly used to physcially set a circuit's behavior.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-1.3918" y1="-2.688" x2="-0.635" y2="-2.688" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-2.688" x2="1.905" y2="-2.688" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-2.688" x2="2.6682" y2="-2.688" width="0.2032" layer="21"/>
+<wire x1="2.6682" y1="-2.688" x2="2.6682" y2="2.712" width="0.2032" layer="21"/>
+<wire x1="2.6682" y1="2.712" x2="1.905" y2="2.712" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="2.712" x2="-0.635" y2="2.712" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="2.712" x2="-1.3918" y2="2.712" width="0.2032" layer="21"/>
+<wire x1="-1.3918" y1="2.712" x2="-1.3918" y2="-2.688" width="0.2032" layer="21"/>
+<wire x1="-0.3175" y1="0.9525" x2="0.3175" y2="0.9525" width="0.2032" layer="21"/>
+<wire x1="0.3175" y1="0.9525" x2="0.3175" y2="-0.9525" width="0.2032" layer="21"/>
+<wire x1="0.3175" y1="-0.9525" x2="-0.3175" y2="-0.9525" width="0.2032" layer="21"/>
+<wire x1="-0.3175" y1="-0.9525" x2="-0.3175" y2="0.9525" width="0.2032" layer="21"/>
+<wire x1="0.9525" y1="0.9525" x2="1.5875" y2="0.9525" width="0.2032" layer="21"/>
+<wire x1="1.5875" y1="0.9525" x2="1.5875" y2="-0.9525" width="0.2032" layer="21"/>
+<wire x1="1.5875" y1="-0.9525" x2="0.9525" y2="-0.9525" width="0.2032" layer="21"/>
+<wire x1="0.9525" y1="-0.9525" x2="0.9525" y2="0.9525" width="0.2032" layer="21"/>
+<rectangle x1="-0.3175" y1="-0.635" x2="0.3175" y2="0" layer="21"/>
+<rectangle x1="0.9525" y1="-0.635" x2="1.5875" y2="0" layer="21"/>
+<smd name="1" x="0" y="-2.54" dx="0.76" dy="1.6" layer="1"/>
+<smd name="2" x="1.27" y="-2.54" dx="0.76" dy="1.6" layer="1"/>
+<smd name="3" x="1.27" y="2.54" dx="0.76" dy="1.6" layer="1"/>
+<smd name="4" x="0" y="2.54" dx="0.76" dy="1.6" layer="1"/>
+<text x="0.3175" y="1.5875" size="0.8128" layer="51" rot="R90">O</text>
+<text x="1.5875" y="1.5875" size="0.8128" layer="51" rot="R90">N</text>
+<text x="0.3175" y="-1.905" size="0.8128" layer="51" rot="R90">1</text>
+<text x="1.5875" y="-1.905" size="0.8128" layer="51" rot="R90">2</text>
+<text x="-1.524" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.794" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="DIPSWITCH-02-209-2LPST">
+<description>&lt;h3&gt;2-Position DIP Switch - PTH 0.1"-Pitch&lt;/h3&gt;
+&lt;p&gt;2-circuit DIP (dual inline package) switch. Commonly used to physcially set a circuit's behavior.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.ctscorp.com/wp-content/uploads/209-210.pdf"&gt;Datasheet&lt;/a&gt; (209-2LPST )&lt;/p&gt;</description>
+<pad name="1" x="-1.27" y="-3.81" drill="0.8"/>
+<pad name="2" x="1.27" y="-3.81" drill="0.8"/>
+<pad name="3" x="1.27" y="3.81" drill="0.8"/>
+<pad name="4" x="-1.27" y="3.81" drill="0.8"/>
+<wire x1="-3.275" y1="3.35" x2="-2" y2="3.35" width="0.2032" layer="21"/>
+<wire x1="3.275" y1="3.35" x2="3.275" y2="-3.35" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-3.35" x2="-3.021" y2="-3.35" width="0.2032" layer="21"/>
+<wire x1="-3.021" y1="-3.35" x2="-3.275" y2="-3.096" width="0.2032" layer="21"/>
+<wire x1="-3.275" y1="-3.096" x2="-3.275" y2="3.35" width="0.2032" layer="21"/>
+<wire x1="2" y1="3.35" x2="3.27" y2="3.35" width="0.2032" layer="21"/>
+<wire x1="3.275" y1="-3.35" x2="2" y2="-3.35" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-2.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2" x2="-0.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="-2" x2="-0.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="2" x2="-2.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="2" x2="0.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="-2" x2="2.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2" x2="0.5" y2="2" width="0.2032" layer="21"/>
+<rectangle x1="-2" y1="-1.27" x2="-1" y2="0.23" layer="21"/>
+<rectangle x1="1" y1="-1.27" x2="2" y2="0.23" layer="21"/>
+<text x="0" y="2.5" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">ON</text>
+<text x="-3.429" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="3.429" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="DIPSWITCH-02-50MIL">
+<description>&lt;b&gt;2-Pin DIP Switch - SMD, 0.05"-Pitch&lt;/b&gt;
+&lt;p&gt;Half-size SMT DIP switch, 1.27 mm / 0.05" pitch. For example the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A6H-2101 or A6H-2102 in Omron A6H series; &lt;a href="http://www.omron.com/ecb/products/pdf/en-a6h.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Digikey &lt;a href="http://www.digikey.com/product-detail/en/A6H-2101/A6H-2101-ND/1811590"&gt;A6H-2101-ND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-2.032" y1="-2.413" x2="2.032" y2="-2.413" width="0.2032" layer="21"/>
+<wire x1="2.032" y1="2.413" x2="-2.032" y2="2.413" width="0.2032" layer="21"/>
+<wire x1="-2.032" y1="2.413" x2="-2.032" y2="-2.413" width="0.2032" layer="21"/>
+<wire x1="2.032" y1="-2.413" x2="2.032" y2="2.413" width="0.2032" layer="21"/>
+<wire x1="-1.0922" y1="1.905" x2="-1.0922" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-1.0922" y1="1.905" x2="-0.1778" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-0.1778" y1="-1.905" x2="-0.1778" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-0.1778" y1="-1.905" x2="-1.0922" y2="-1.905" width="0.2032" layer="21"/>
+<text x="-1.016" y="-4.191" size="1.016" layer="51" ratio="10">1</text>
+<text x="-1.905" y="1.27" size="0.8128" layer="51" ratio="10">ON</text>
+<text x="0.254" y="-4.191" size="1.016" layer="51" ratio="10">2</text>
+<rectangle x1="-0.889" y1="-0.381" x2="-0.381" y2="0" layer="21"/>
+<rectangle x1="-0.889" y1="-1.016" x2="-0.381" y2="-0.635" layer="21"/>
+<rectangle x1="-0.889" y1="-1.651" x2="-0.381" y2="-1.27" layer="21"/>
+<smd name="2" x="0.635" y="-3.7" dx="1.27" dy="0.762" layer="1" rot="R90"/>
+<smd name="1" x="-0.635" y="-3.7" dx="1.27" dy="0.762" layer="1" rot="R90"/>
+<smd name="4" x="-0.635" y="3.7" dx="1.27" dy="0.762" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="3.7" dx="1.27" dy="0.762" layer="1" rot="R90"/>
+<wire x1="0.1778" y1="1.905" x2="0.1778" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="0.1778" y1="1.905" x2="1.0922" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.0922" y1="-1.905" x2="1.0922" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.0922" y1="-1.905" x2="0.1778" y2="-1.905" width="0.2032" layer="21"/>
+<rectangle x1="0.381" y1="-0.381" x2="0.889" y2="0" layer="21"/>
+<rectangle x1="0.381" y1="-1.016" x2="0.889" y2="-0.635" layer="21"/>
+<rectangle x1="0.381" y1="-1.651" x2="0.889" y2="-1.27" layer="21"/>
+<text x="-2.159" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.159" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIPSWITCH-02">
+<description>&lt;h3&gt;2-Position DIP Switch&lt;/h3&gt;
+&lt;p&gt;2-circuit DIP (dual inline package) switch. Commonly used to physcially set a circuit's behavior.&lt;/p&gt;</description>
+<rectangle x1="-0.254" y1="-2.286" x2="0.254" y2="0" layer="94"/>
+<wire x1="-0.508" y1="-2.54" x2="0.508" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-2.54" x2="0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="2.54" x2="-0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="-0.508" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="5.08" x2="4.318" y2="5.08" width="0.254" layer="94"/>
+<wire x1="4.318" y1="5.08" x2="4.318" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-5.08" x2="-1.778" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-5.08" x2="-1.778" y2="5.08" width="0.254" layer="94"/>
+<rectangle x1="2.286" y1="-2.286" x2="2.794" y2="0" layer="94"/>
+<wire x1="2.032" y1="-2.54" x2="3.048" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-2.54" x2="3.048" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="2.54" x2="2.032" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="2.54" x2="2.032" y2="-2.54" width="0.1524" layer="94"/>
+<text x="0.254" y="-2.794" size="1.27" layer="94" font="vector" align="top-center">1</text>
+<pin name="P$1" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="P$2" x="2.54" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="P$11" x="2.54" y="7.62" visible="pad" length="short" rot="R270"/>
+<pin name="P$12" x="0" y="7.62" visible="pad" length="short" rot="R270"/>
+<text x="1.27" y="3.048" size="1.27" layer="94" align="bottom-center">ON</text>
+<text x="-2.032" y="-5.08" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
+<text x="4.572" y="-5.08" size="1.778" layer="96" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
+<text x="2.794" y="-2.794" size="1.27" layer="94" font="vector" align="top-center">2</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIP-02" prefix="S">
+<description>&lt;h3&gt;2-Position DIP Switch&lt;/h3&gt;
+&lt;p&gt;2-circuit DIP (dual inline package) switch. Commonly used to physcially set a circuit's behavior.&lt;/p&gt;
+&lt;h4&gt;Variants&lt;/h4&gt;
+&lt;h5&gt;PTH-100MIL - Through-hole, 0.1"-Pitch&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13899"&gt;SparkFun Stepoko&lt;/a&gt; (ROB-13899)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;SMD-50MIL-JWING - SMD (J-Wing Pads), 0.05"-Pitch&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Prototype Part&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;SMD-50MIL - SMD, 0.05"-Pitch&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13777"&gt;SparkFun Battery Babysitter&lt;/a&gt; (PRT-13777)&lt;/li&gt;&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIPSWITCH-02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-50MIL-JWING" package="DIPSWITCH-02-CHS-02A">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$11" pad="3"/>
+<connect gate="G$1" pin="P$12" pad="4"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-12372" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-100MIL" package="DIPSWITCH-02-209-2LPST">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$11" pad="3"/>
+<connect gate="G$1" pin="P$12" pad="4"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-12532" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-50MIL" package="DIPSWITCH-02-50MIL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$11" pad="3"/>
+<connect gate="G$1" pin="P$12" pad="4"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-13215"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6422,6 +6782,16 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
 <part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="U$11" library="microbuilder" deviceset="GND" device=""/>
+<part name="U1" library="SparkFun-IC-Memory" deviceset="EEPROM-I2C" device="SMD" value="24LC256"/>
+<part name="S1" library="SparkFun-Switches" deviceset="DIP-02" device="-SMD-50MIL"/>
+<part name="U$16" library="microbuilder" deviceset="GND" device=""/>
+<part name="R6" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K"/>
+<part name="U$18" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="U$23" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$25" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$26" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6481,6 +6851,16 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C17" gate="G$1" x="73.66" y="25.4"/>
 <instance part="C18" gate="G$1" x="86.36" y="25.4"/>
 <instance part="U$11" gate="G$1" x="58.42" y="17.78" rot="MR0"/>
+<instance part="U1" gate="G$1" x="213.36" y="7.62"/>
+<instance part="S1" gate="G$1" x="165.1" y="2.54"/>
+<instance part="U$16" gate="G$1" x="165.1" y="-12.7"/>
+<instance part="R6" gate="G$1" x="177.8" y="0" rot="R90"/>
+<instance part="U$18" gate="G$1" x="177.8" y="-10.16" rot="R180"/>
+<instance part="U$23" gate="G$1" x="185.42" y="-2.54"/>
+<instance part="U$25" gate="G$1" x="256.54" y="-2.54" rot="MR0"/>
+<instance part="U$26" gate="G$1" x="264.16" y="12.7" rot="MR90"/>
+<instance part="C19" gate="G$1" x="256.54" y="7.62" rot="MR0"/>
+<instance part="C20" gate="G$1" x="248.92" y="7.62" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -6623,6 +7003,31 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U$11" gate="G$1" pin="GND"/>
 <junction x="58.42" y="20.32"/>
 </segment>
+<segment>
+<pinref part="U$16" gate="G$1" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="-10.16" x2="165.1" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="P$2"/>
+<wire x1="165.1" y1="-7.62" x2="165.1" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-5.08" x2="167.64" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-7.62" x2="165.1" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="165.1" y="-7.62"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VSS"/>
+<wire x1="200.66" y1="5.08" x2="185.42" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="5.08" x2="185.42" y2="0" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$25" gate="G$1" pin="GND"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="5.08" x2="256.54" y2="0" width="0.1524" layer="91"/>
+<junction x="256.54" y="0"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="0" x2="256.54" y2="0" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="5.08" x2="248.92" y2="0" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -6683,6 +7088,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="185.42" y1="180.34" x2="193.04" y2="180.34" width="0.1524" layer="91"/>
 <junction x="185.42" y="180.34"/>
 <pinref part="FB4" gate="G$1" pin="P$1"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="U$18" gate="G$1" pin="3.3V"/>
+<wire x1="177.8" y1="-5.08" x2="177.8" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$26" gate="G$1" pin="3.3V"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<junction x="261.62" y="12.7"/>
+<wire x1="248.92" y1="12.7" x2="261.62" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="12.7" x2="256.54" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<junction x="248.92" y="12.7"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="226.06" y1="12.7" x2="248.92" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENABLE" class="0">
@@ -6799,6 +7220,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="213.36" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
 <label x="220.98" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SDA"/>
+<wire x1="226.06" y1="5.08" x2="241.3" y2="5.08" width="0.1524" layer="91"/>
+<label x="231.14" y="5.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -6816,6 +7242,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U$1" gate="G$1" pin="2_SCL/SPI_CLK"/>
 <wire x1="213.36" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
 <label x="220.98" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SCL"/>
+<wire x1="226.06" y1="7.62" x2="241.3" y2="7.62" width="0.1524" layer="91"/>
+<label x="231.14" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SQW" class="0">
@@ -7009,6 +7440,43 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="170.18" y="170.18"/>
 <pinref part="FB4" gate="G$1" pin="P$2"/>
 <junction x="170.18" y="180.34"/>
+</segment>
+</net>
+<net name="I2C2_SCL" class="0">
+<segment>
+<pinref part="U$15" gate="G$1" pin="I2C2_SCL"/>
+<wire x1="22.86" y1="76.2" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
+<label x="7.62" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C2_SDA" class="0">
+<segment>
+<pinref part="U$15" gate="G$1" pin="I2C2_SDA"/>
+<wire x1="78.74" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<label x="83.82" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="A2"/>
+<wire x1="200.66" y1="7.62" x2="177.8" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="7.62" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="P$11"/>
+<pinref part="U1" gate="G$1" pin="A1"/>
+<wire x1="167.64" y1="10.16" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="A0"/>
+<pinref part="S1" gate="G$1" pin="P$12"/>
+<wire x1="200.66" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="12.7" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
