@@ -7070,7 +7070,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$3" library="tuckerLib" deviceset="XM1100" device=""/>
 <part name="U$11" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$16" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="FB2" library="microbuilder" deviceset="FERRITE" device="-0805NO" value="Ferrite"/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1.0uF"/>
 <part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
@@ -7090,6 +7089,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$26" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
+<part name="U$21" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="U$16" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7126,7 +7127,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$3" gate="G$1" x="220.98" y="68.58"/>
 <instance part="U$11" gate="G$1" x="182.88" y="93.98" rot="MR0"/>
 <instance part="U$4" gate="G$1" x="215.9" y="53.34" rot="MR0"/>
-<instance part="U$16" gate="G$1" x="175.26" y="30.48" rot="R180"/>
 <instance part="FB2" gate="G$1" x="193.04" y="43.18"/>
 <instance part="C1" gate="G$1" x="175.26" y="38.1"/>
 <instance part="C5" gate="G$1" x="182.88" y="38.1"/>
@@ -7146,6 +7146,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$26" gate="G$1" x="261.62" y="17.78" rot="MR90"/>
 <instance part="C19" gate="G$1" x="254" y="12.7" rot="MR0"/>
 <instance part="C20" gate="G$1" x="246.38" y="12.7" rot="MR0"/>
+<instance part="U$21" gate="G$1" x="180.34" y="45.72"/>
+<instance part="U$16" gate="G$1" x="177.8" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -7248,6 +7250,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="246.38" y1="5.08" x2="254" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="10.16" x2="246.38" y2="5.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="33.02" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="33.02" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="33.02" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="35.56" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
+<junction x="203.2" y="33.02"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="35.56" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
+<junction x="182.88" y="33.02"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="35.56" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$16" gate="G$1" pin="GND"/>
+<junction x="177.8" y="33.02"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -7283,23 +7303,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="182.88" y="63.5"/>
 </segment>
 <segment>
-<pinref part="U$16" gate="G$1" pin="3.3V"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="33.02" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="33.02" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="33.02" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="35.56" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
-<junction x="203.2" y="33.02"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="35.56" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
-<junction x="182.88" y="33.02"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="35.56" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
-<junction x="175.26" y="33.02"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="3.3V"/>
 </segment>
@@ -7322,6 +7325,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="246.38" y="17.78"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="223.52" y1="17.78" x2="246.38" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="43.18" x2="180.34" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="FB2" gate="G$1" pin="P$1"/>
+<wire x1="180.34" y1="43.18" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
+<junction x="182.88" y="43.18"/>
+<pinref part="U$21" gate="G$1" pin="3.3V"/>
+<junction x="180.34" y="43.18"/>
 </segment>
 </net>
 <net name="ENABLE" class="0">
@@ -7534,16 +7548,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="170.18" y1="165.1" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="162.56" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="43.18" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="FB2" gate="G$1" pin="P$1"/>
-<wire x1="182.88" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
-<junction x="182.88" y="43.18"/>
 </segment>
 </net>
 <net name="N$5" class="0">
